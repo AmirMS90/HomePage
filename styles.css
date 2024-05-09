@@ -1,0 +1,112 @@
+body {
+    background-color: #252422;
+    color: #ccc5b9;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+header {
+    color: #fffcf2;
+}
+
+.orengeBG {
+    background-color: #eb5e28;
+    border-radius: 0.5rem;
+}
+
+.borderimg {
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+img:hover {
+    opacity: 80%;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #252422, #ccc5b9, #252422);
+}
+
+.form-group {
+    margin: 1rem 0 1rem 0;
+}
+
+textarea {
+    height: 15rem;
+    resize: none;
+}
+
+.errorMs {
+    font-size: 12px;
+    color: red;
+    display: none;
+}
+
+#ham {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.item.error {
+    border: 2px solid red;
+}
+
+.form-group.error .errorMs {
+    display: block;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: deepskyblue;
+}
+
+a:visited:hover {
+    color: rgb(124, 222, 255);
+}
+
+@media only screen and (max-width:768px) {
+    .borderimg {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    #figure {
+        display: none !important;
+    }
+}
+
+::selection {
+    color: #403d39;
+    background: #eb5e28;
+}
+
+.headtxt::selection,
+th::selection {
+    color: #eb5e28;
+    background: #403d39;
+}
+
+th,
+td {
+    border: 1px solid #FFFCF2;
+}
+
+th {
+    background: #eb5e28;
+    color: #FFFCF2;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
