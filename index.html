@@ -14,12 +14,25 @@
 </head>
 
 <body>
-    <a href="#" id="ham" class="orengeBG">
-        <img src="images/Hamburger_icon.svg.png"
-            alt="hamburger menue" height="30" width="30">
-    </a>
+    <nav>
+        <button id="ham" class="orengeBG rounded">
+            <img src="images/Hamburger_icon.svg.png" alt="hamburger menue" height="30" width="30">
+        </button>
+        <div class="menue orengeBG">
+            <button id="ham_x" class="orengeBG rounded">
+                <img src="images/x_icon.png" alt="close icon" height="30" width="30">
+            </button>
+            <div class="hamXPlaceholder"></div>
+            <ul>
+                <li><a href="index.html">HomePage</a></li>
+                <li><a href="contact.html">Contact Me!</a></li>
+                <li><a href="hobbies.html">My hobbies</a></li>
+                <li><a href="career.html">My career</a></li>
+            </ul>
+        </div>
+    </nav>
     <header class="container">
-        <div class="orengeBG">
+        <div class="orengeBG rounded">
             <h1 class="d-flex justify-content-center align-items-center headtxt">My Home Page</h1>
             <nav class="d-flex justify-content-center align-items-center">
                 <details>
@@ -41,9 +54,8 @@
             <p class="d-flex justify-content-center align-items-center">I'm a CS50 student working on a homepage website
                 as part of my assignment. Gotta use HTML, CSS and JavaScript for this one! &#128513;</p>
             <figure class="d-flex justify-content-center align-items-center" id="figure">
-                <img src="images/langueges.jpg"
-                    alt="html, css and javascript logos" title="html, css and javascript logos" width="612" height="343"
-                    class="borderimg">
+                <img src="images/langueges.jpg" alt="html, css and javascript logos"
+                    title="html, css and javascript logos" width="612" height="343" class="borderimg rounded">
                 <figcaption>I <strong>love</strong> using HTML, CSS and <abbr title="JavaScript">JS</abbr></figcaption>
             </figure>
         </section>
@@ -72,13 +84,18 @@
             </table>
         </section>
     </main>
+    <footer class="footer orengeBG enabled">
+        <div class="container">
+            <ul class="row">
+                <li class="col-3"><a href="index.html">HomePage</a></li>
+                <li class="col-3"><a href="contact.html">Contact Me!</a></li>
+                <li class="col-3"><a href="hobbies.html">My hobbies</a></li>
+                <li class="col-3"><a href="career.html">My career</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="footerPalceholder"></div>
+    <script src="MainScript.js"></script>
 </body>
 
 </html>
-<!--
-TODO: make a hamburger menue containing 👇
-<li"><a href="hobbies.html">My hobbies</a></li>
-<li><a href="career.html">My career</a></li>
-<li><a href="contact.html">Contact Me!</a></li>
--->
-<!-- TODO: put other content -->

@@ -3,6 +3,18 @@ body {
     color: #ccc5b9;
 }
 
+.rounded {
+    border-radius: 0.5rem;
+}
+
+footer {
+    display: none;
+}
+
+footer li {
+    display: inline;
+}
+
 h1 {
     padding: 1rem;
 }
@@ -13,15 +25,14 @@ header {
 
 .orengeBG {
     background-color: #eb5e28;
-    border-radius: 0.5rem;
 }
 
-.borderimg {
+figure img {
     margin-right: 1rem;
-    border-radius: 0.5rem;
 }
 
-img:hover {
+img:hover,
+button:hover {
     opacity: 80%;
 }
 
@@ -48,9 +59,30 @@ textarea {
 }
 
 #ham {
+    position: fixed;
+    right: 15px;
+    top: 10px;
+}
+
+#ham_x {
     position: absolute;
     right: 15px;
     top: 10px;
+}
+
+.hamXPlaceholder {
+    margin: 4rem;
+}
+
+.menue {
+    position: fixed;
+    width: 7.5%;
+    height: 100%;
+    right: -120px;
+}
+
+.menue.enabled {
+    right: 0;
 }
 
 .item.error {
@@ -79,11 +111,32 @@ a:visited:hover {
         width: 50%;
         height: 50%;
     }
+
+    .footer {
+        display: inline;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .footerPalceholder {
+        display: block;
+        margin: 2.5rem;
+    }
+
+    .menue,
+    #ham {
+        display: none;
+    }
 }
 
-@media only screen and (max-width:360px) {
+@media only screen and (max-width:500px) {
     #figure {
         display: none !important;
+    }
+
+    .footerPalceholder {
+        margin: 4rem;
     }
 }
 

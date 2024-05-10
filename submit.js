@@ -74,7 +74,7 @@ function checkEmail() {
     }
 }
 
-document.querySelector('button').addEventListener('click', (e) => {
+document.querySelector('#emailSender').addEventListener('click', (e) => {
     checkInputs();
     e.preventDefault();
 
