@@ -3,6 +3,19 @@ body {
     color: #ccc5b9;
 }
 
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #403d39;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #eb5e28;
+    border-radius: 3px;
+}
+
 .rounded {
     border-radius: 0.5rem;
 }
