@@ -76,9 +76,10 @@ textarea {
 
 .menue {
     position: fixed;
-    width: 7.5%;
+    width: 10%;
     height: 100%;
-    right: -120px;
+    right: -10%;
+    border: 2px solid #ccc5b9;
 }
 
 .menue.enabled {
@@ -106,7 +107,7 @@ a:visited:hover {
     color: rgb(124, 222, 255);
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1140px) {
     .borderimg {
         width: 50%;
         height: 50%;
