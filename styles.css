@@ -3,6 +3,26 @@ body {
     color: #ccc5b9;
 }
 
+@keyframes HamMenueAnimation {
+    from {
+        right: -10%;
+    }
+
+    to {
+        right: 0px;
+    }
+}
+
+@keyframes HamMenueAnimationReverse {
+    from {
+        right: 0px;
+    }
+    
+    to {
+        right: -10%;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 0.5rem;
 }
@@ -96,7 +116,15 @@ textarea {
 }
 
 .menue.enabled {
-    right: 0;
+    animation-name: HamMenueAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.menue.disabled {
+    animation-name: HamMenueAnimationReverse;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 .item.error {
