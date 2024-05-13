@@ -209,3 +209,7 @@ th {
 .leftAlline {
     text-align: left;
 }
+
+ul{
+    list-style: none;
+}
