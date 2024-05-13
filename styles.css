@@ -1,6 +1,7 @@
 body {
     background-color: #252422;
     color: #ccc5b9;
+    text-align: center;
 }
 
 @keyframes HamMenueAnimation {
@@ -17,7 +18,7 @@ body {
     from {
         right: 0px;
     }
-    
+
     to {
         right: -10%;
     }
@@ -58,10 +59,6 @@ header {
 
 .orengeBG {
     background-color: #eb5e28;
-}
-
-figure img {
-    margin-right: 1rem;
 }
 
 img:hover,
@@ -151,12 +148,14 @@ a:visited:hover {
 
 @media only screen and (max-width:1140px) {
     .borderimg {
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: 70%;
     }
 
     .footer {
-        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -205,4 +204,8 @@ th {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.leftAlline {
+    text-align: left;
 }
