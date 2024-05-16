@@ -4,6 +4,10 @@ body {
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @keyframes HamMenueAnimation {
     from {
         right: -10%;
@@ -210,6 +214,6 @@ th {
     text-align: left;
 }
 
-ul{
+ul {
     list-style: none;
 }
