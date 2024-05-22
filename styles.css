@@ -221,3 +221,7 @@ th {
 ul {
     list-style: none;
 }
+
+strong {
+    color: #eb5e28;
+}
