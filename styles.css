@@ -214,8 +214,8 @@ th {
     padding-bottom: 10px;
 }
 
-.leftAlign {
-    text-align: left;
+.justifiedText {
+    text-align: justify;
 }
 
 ul {
